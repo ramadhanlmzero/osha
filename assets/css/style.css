@@ -12093,7 +12093,7 @@ textarea.form-control {
     text-align: center;
     background: #3d4044;
     color: #fff;
-    border-top: 5px solid #f8be2e;
+    border-top: 5px solid #56c8fb;;
     padding: 15px;
 }
 
@@ -12122,5 +12122,13 @@ textarea.form-control {
     background-position: top center;
     background-repeat: no-repeat;
     height: 80px;
+    margin-top: 30px;
+}
+
+.schemarisk-item {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 150px;
     margin-top: 30px;
 }
