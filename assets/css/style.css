@@ -9382,7 +9382,7 @@ body {
     background: #fff;
     font-size: 16px;
     line-height: 1.8;
-    font-weight: 300;
+    font-weight: 400;
     color: #666666;
 }
 body.menu-show {
@@ -12162,7 +12162,7 @@ textarea.form-control {
     line-height: 1.4;
 }
 
-*+.dh-h1, *+.dh-h2, *+.dh-h3, *+.dh-h4, *+.dh-h5, *+.dh-h6, *+h1, *+h2, *+h3, *+h4, *+h5, *+h6 {
+.dh-h {
     margin-top: 40px;
 }
 
