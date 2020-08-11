@@ -12132,3 +12132,52 @@ textarea.form-control {
     height: 150px;
     margin-top: 30px;
 }
+
+.dh-grid-margin {
+    margin-top: 30px;
+}
+
+[class*=dh-inline] {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.dh-position-z-index {
+    z-index: 1;
+}
+.dh-position-relative {
+    position: relative!important;
+}
+.dh-padding {
+    padding: 30px;
+}
+
+.dh-heading-bullet {
+    position: relative;
+}
+.dh-h4, h4 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+*+.dh-h1, *+.dh-h2, *+.dh-h3, *+.dh-h4, *+.dh-h5, *+.dh-h6, *+h1, *+h2, *+h3, *+h4, *+h5, *+h6 {
+    margin-top: 40px;
+}
+
+.dh-list {
+    padding: 0;
+    list-style: none;
+}
+
+.dh-list-striped>li:nth-of-type(odd) {
+    background: #eafcfd;
+}
+.dh-list-striped>li:nth-of-type(odd) {
+    border-top: 1px solid #89cdf5;
+    border-bottom: 1px solid #89cdf5;
+}
+.dh-list-striped>li {
+    padding: 10px 10px;
+}
