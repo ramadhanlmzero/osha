@@ -6398,7 +6398,8 @@ button.bg-dark:focus {
 }
 
 .border {
-    border: 1px solid #dee2e6 !important;
+    border: 2px solid #3498ff !important;
+    /* border: 1px solid #dee2e6 !important; */
 }
 
 .border-top {
@@ -10135,17 +10136,17 @@ h5,
     font-weight: 500;
 }
 .table .thead-primary {
-    background: #12e6ca;
-    background: -moz-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #12e6ca), color-stop(100%, #8be55d));
-    background: -webkit-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-    background: -o-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-    background: -ms-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-    background: linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12e6ca', endColorstr='#8be55d', GradientType=1 );
+    background: #45cafc;
+    background: -moz-linear-gradient(40deg, #45cafc, #303f9f);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #45cafc), color-stop(100%, #9a51ff));
+    background: -webkit-linear-gradient(40deg, #45cafc, #303f9f);
+    background: -o-linear-gradient(40deg, #45cafc, #303f9f);
+    background: -ms-linear-gradient(40deg, #45cafc, #303f9f);
+    background: linear-gradient(40deg, #45cafc, #303f9f);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45cafc', endColorstr='#9a51ff', GradientType=1 );
 }
 .table .thead-primary tr th {
-    padding: 30px 10px;
+    padding: 15px 5px;
     color: #fff !important;
     border: 1px solid transparent !important;
 }
@@ -10153,7 +10154,8 @@ h5,
     font-weight: 400;
     padding: 20px 10px !important;
     color: #000;
-    border: 1px solid transparent !important;
+    border: 2px solid #3498ff !important;
+    /* border: 1px solid transparent !important; */
     border-bottom: 1px solid #f0f0f0 !important;
 }
 @media (min-width: 768px) {
@@ -12180,4 +12182,14 @@ textarea.form-control {
 }
 .dh-list-striped>li {
     padding: 10px 10px;
+}
+
+.grid-picture div {
+    float: left;
+    margin: 0;
+}
+
+.grid-picture div img {
+    display: inline;
+    cursor: zoom-in;
 }
