@@ -591,6 +591,10 @@ pre code {
     .container {
         max-width: 540px;
     }
+    
+    .scope-list {
+        margin-left: 0;
+    }
 }
 @media (min-width: 768px) {
     .container {
@@ -12200,4 +12204,16 @@ textarea.form-control {
     text-align:center;
     padding: 10px;
     color:white;
+}
+
+.scope-list {
+    margin-left: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .scope-list {
+        margin-left: 0;
+        padding-left: 0;
+    }
 }
