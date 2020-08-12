@@ -12183,13 +12183,3 @@ textarea.form-control {
 .dh-list-striped>li {
     padding: 10px 10px;
 }
-
-.grid-picture div {
-    float: left;
-    margin: 0;
-}
-
-.grid-picture div img {
-    display: inline;
-    cursor: zoom-in;
-}
