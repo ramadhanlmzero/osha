@@ -10246,14 +10246,14 @@ h5,
     width: 80px;
     height: 80px;
     margin: 0 auto;
-    background: #12e6ca;
+    /* background: #12e6ca;
     background: -moz-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, #12e6ca), color-stop(100%, #8be55d));
     background: -webkit-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
     background: -o-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-    background: -ms-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-    background: linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12e6ca', endColorstr='#8be55d', GradientType=1 );
+    background: -ms-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%); */
+    background: linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12e6ca', endColorstr='#8be55d', GradientType=1 ); */
     -webkit-box-shadow: 0px 15px 30px -12px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 15px 30px -12px rgba(0, 0, 0, 0.2);
     -ms-box-shadow: 0px 15px 30px -12px rgba(0, 0, 0, 0.2);
@@ -12254,4 +12254,53 @@ textarea.form-control {
     .owl-carousel.home-slider .slider-item.bread-item .slider-text {
         height: 400px;
     }
+    .regulasi-box .number {
+        padding-left: 0.5rem !important;
+    }
+}
+
+.regulasi-box {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 15px 0px 15px;
+    transition: 0.5s;
+    border: 1px solid rgb(95, 127, 214);
+}
+.regulasi-box:hover {
+    background-color: white;
+    border-radius: 40px;
+    border: 1px solid #00bcd4;
+}
+.regulasi-box:hover h3 {
+  color: #00bcd4;
+}
+.regulasi-box .number {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.regulasi-box .number h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(95, 127, 214)
+}
+
+.regulasi-box:hover .number h1 {
+    color: #00bcd4
+}
+
+.regulasi-box h3 {
+    text-decoration: none;
+    color: rgb(95, 127, 214);
+    font-size: 24px;
+}
+
+.regulasi-box :before {
+    margin: 0 auto;
+    display: block;
+    float: none;
 }
