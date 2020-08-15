@@ -9755,6 +9755,7 @@ h5,
     background: -ms-linear-gradient(40deg, #45cafc, #303f9f);
     background: linear-gradient(40deg, #45cafc, #303f9f);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45cafc', endColorstr='#9a51ff', GradientType=1 );
+    opacity: 0.80;
 }
 .owl-carousel.home-slider .slider-item .overlay {
     z-index: -1;
