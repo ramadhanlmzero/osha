@@ -13055,9 +13055,10 @@ ul.timeline>li>span {
 }
 
 .section-color {
-    background: linear-gradient(10deg, #45cafc, #5365da);
+    background: linear-gradient(10deg, rgba(69, 202, 252, 80%), rgba(83, 101, 218, 80%));
     color: white;
     padding: 40px 0;
+    height: 100%;
 }
 
 .pdfobject-container {
