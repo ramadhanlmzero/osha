@@ -11397,6 +11397,12 @@ textarea.form-control {
     color: #627bed;
 }
 
+.heading-section h5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #627bed;
+}
+
 @media (max-width: 767.98px) {
     .heading-section h2 {
         font-size: 30px;
@@ -12940,6 +12946,12 @@ h4 {
     .regulasi-box .number {
         padding-left: 0.5rem !important;
     }
+    .section-background p {
+        font-size: 13px!important;
+    }
+    .section-background i {
+        font-size: 19px!important;
+    }
 }
 
 .regulasi-box {
@@ -13060,6 +13072,20 @@ ul.timeline>li>span {
     padding: 40px 0;
     height: 100%;
 }
+
+.section-background {
+    padding: 40px 0;
+    height: 100%;
+}
+
+.section-background p {
+    font-size: 19px;
+    text-align: left;
+}
+
+.section-background i {
+        font-size: 32px;
+    }
 
 .pdfobject-container {
     height: 50rem;
